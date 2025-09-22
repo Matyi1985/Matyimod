@@ -1,0 +1,41 @@
+{
+  "item.matyi.sapphire": "Sapphire",
+  "item.matyi.raw_sapphire": "Raw Sapphire",
+
+  "item.matyi.metal_detector": "Metal Detector",
+  "item.matyi.strawberry": "Strawberry",
+  "item.matyi.pine_cone": "Pine Cone",
+  "item.matyi.sapphire_staff": "Sapphire Staff",
+
+  "item.matyi.sapphire_sword": "Sapphire Sword",
+  "item.matyi.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.matyi.sapphire_axe": "Sapphire Axe",
+  "item.matyi.sapphire_shovel": "Sapphire Shovel",
+  "item.matyi.sapphire_hoe": "Sapphire Hoe",
+
+
+  "tooltip.matyi.metal_detector.tooltip": "Finds valuables underground!",
+  "tooltip.matyi.soundblock.tooltip": "Makes sweet sounds when right-clicked!",
+
+  "block.matyi.sapphire_block": "Block of Sapphire",
+  "block.matyi.raw_sapphire_block": "Block of Raw Sapphire",
+
+  "block.matyi.sapphire_ore": "Sapphire Ore",
+  "block.matyi.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.matyi.nether_sapphire_ore": "Nether Sapphire Ore",
+  "block.matyi.end_stone_sapphire_ore": "Endstone Sapphire Ore",
+
+  "block.matyi.sound_block": "Sound Block",
+
+  "block.matyi.sapphire_stairs": "Sapphire Stairs",
+  "block.matyi.sapphire_slab": "Sapphire Slab",
+  "block.matyi.sapphire_trapdoor": "Sapphire Trapdoor",
+  "block.matyi.sapphire_button": "Sapphire Button",
+  "block.matyi.sapphire_pressure_plate": "Sapphire Pressure Plate",
+  "block.matyi.sapphire_fence": "Sapphire Fence",
+  "block.matyi.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.matyi.sapphire_wall": "Sapphire Wall",
+  "block.matyi.sapphire_door": "Sapphire Door",
+
+  "creativetab.matyimod_tab": "Matyi mod"
+}

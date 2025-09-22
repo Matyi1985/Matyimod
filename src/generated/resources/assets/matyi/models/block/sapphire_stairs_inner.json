@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "matyi:block/sapphire_block",
+    "side": "matyi:block/sapphire_block",
+    "top": "matyi:block/sapphire_block"
+  }
+}
