@@ -13,6 +13,11 @@
   "item.matyi.sapphire_shovel": "Sapphire Shovel",
   "item.matyi.sapphire_hoe": "Sapphire Hoe",
 
+  "item.matyi.sapphire_helmet": "Sapphire Helmet",
+  "item.matyi.sapphire_chestplate": "Sapphire Chestplate",
+  "item.matyi.sapphire_leggings": "Sapphire Leggings",
+  "item.matyi.sapphire_boots": "Sapphire Boots",
+
 
   "tooltip.matyi.metal_detector.tooltip": "Finds valuables underground!",
   "tooltip.matyi.soundblock.tooltip": "Makes sweet sounds when right-clicked!",
