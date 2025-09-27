@@ -1,19 +1,19 @@
 {
   "values": [
-    "matyi:sapphire_ore",
-    "matyi:deepslate_sapphire_ore",
-    "matyi:nether_sapphire_ore",
-    "matyi:raw_sapphire_block",
-    "matyi:sapphire_block",
-    "matyi:end_stone_sapphire_ore",
-    "matyi:sapphire_wall",
-    "matyi:sapphire_fence",
-    "matyi:sapphire_fence_gate",
-    "matyi:sapphire_trapdoor",
-    "matyi:sapphire_door",
-    "matyi:sapphire_slab",
-    "matyi:sapphire_button",
-    "matyi:sapphire_pressure_plate",
-    "matyi:sapphire_stairs"
+    "matyimod:sapphire_ore",
+    "matyimod:deepslate_sapphire_ore",
+    "matyimod:nether_sapphire_ore",
+    "matyimod:raw_sapphire_block",
+    "matyimod:sapphire_block",
+    "matyimod:end_stone_sapphire_ore",
+    "matyimod:sapphire_wall",
+    "matyimod:sapphire_fence",
+    "matyimod:sapphire_fence_gate",
+    "matyimod:sapphire_trapdoor",
+    "matyimod:sapphire_door",
+    "matyimod:sapphire_slab",
+    "matyimod:sapphire_button",
+    "matyimod:sapphire_pressure_plate",
+    "matyimod:sapphire_stairs"
   ]
 }

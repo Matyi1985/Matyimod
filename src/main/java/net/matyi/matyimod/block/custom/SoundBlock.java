@@ -1,5 +1,6 @@
 package net.matyi.matyimod.block.custom;
 
+import net.matyi.matyimod.matyimod;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvent;
@@ -26,7 +27,7 @@ public class SoundBlock extends Block {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable BlockGetter pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
-        pTooltip.add(Component.translatable("tooltip.matyi.soundblock.tooltip"));
+        pTooltip.add(Component.translatable("tooltip." + matyimod.MOD_ID + ".soundblock.tooltip"));
         super.appendHoverText(pStack, pLevel, pTooltip, pFlag);
     }
 

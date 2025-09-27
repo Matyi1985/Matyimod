@@ -1,7 +1,7 @@
 {
   "values": [
-    "matyi:sapphire_block",
-    "matyi:raw_sapphire_block",
-    "matyi:sapphire_ore"
+    "matyimod:sapphire_block",
+    "matyimod:raw_sapphire_block",
+    "matyimod:sapphire_ore"
   ]
 }

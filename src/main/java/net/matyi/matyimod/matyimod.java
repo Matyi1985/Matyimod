@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.matyi.matyimod.block.ModBlocks;
 import net.matyi.matyimod.item.ModCreativeModTabs;
 import net.matyi.matyimod.item.ModItems;
+import net.matyi.matyimod.loot.ModLootModifiers;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -24,7 +25,7 @@ import org.slf4j.Logger;
 public class matyimod
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "matyi";
+    public static final String MOD_ID = "matyimod";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
@@ -34,6 +35,8 @@ public class matyimod
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -1,5 +1,6 @@
 package net.matyi.matyimod.item.custom;
 
+import net.matyi.matyimod.matyimod;
 import net.matyi.matyimod.util.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
@@ -57,7 +58,7 @@ public class MetalDetectorItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.matyi.metal_detector.tooltip"));
+        pTooltipComponents.add(Component.translatable("tooltip." + matyimod.MOD_ID + ".metal_detector.tooltip"));
         super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
     }
 
