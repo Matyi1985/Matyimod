@@ -1,0 +1,11 @@
+{
+  "type": "matyimod:add_sus_sand_item",
+  "chance": 0.17,
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:archaeology/desert_pyramid"
+    }
+  ],
+  "item": "matyimod:metal_detector"
+}

@@ -1,0 +1,45 @@
+{
+  "item.matyimod.sapphire": "Sapphire",
+  "item.matyimod.raw_sapphire": "Raw Sapphire",
+
+  "item.matyimod.metal_detector": "Metal Detector",
+  "item.matyimod.strawberry": "Strawberry",
+  "item.matyimod.pine_cone": "Pine Cone",
+  "item.matyimod.sapphire_staff": "Sapphire Staff",
+
+  "item.matyimod.sapphire_sword": "Sapphire Sword",
+  "item.matyimod.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.matyimod.sapphire_axe": "Sapphire Axe",
+  "item.matyimod.sapphire_shovel": "Sapphire Shovel",
+  "item.matyimod.sapphire_hoe": "Sapphire Hoe",
+
+  "item.matyimod.sapphire_helmet": "Sapphire Helmet",
+  "item.matyimod.sapphire_chestplate": "Sapphire Chestplate",
+  "item.matyimod.sapphire_leggings": "Sapphire Leggings",
+  "item.matyimod.sapphire_boots": "Sapphire Boots",
+
+  "tooltip.matyimod.metal_detector.tooltip": "Finds valuables underground!",
+  "tooltip.matyimod.soundblock.tooltip": "Makes sweet sounds when right-clicked!",
+
+  "block.matyimod.sapphire_block": "Block of Sapphire",
+  "block.matyimod.raw_sapphire_block": "Block of Raw Sapphire",
+
+  "block.matyimod.sapphire_ore": "Sapphire Ore",
+  "block.matyimod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.matyimod.nether_sapphire_ore": "Nether Sapphire Ore",
+  "block.matyimod.end_stone_sapphire_ore": "Endstone Sapphire Ore",
+
+  "block.matyimod.sound_block": "Sound Block",
+
+  "block.matyimod.sapphire_stairs": "Sapphire Stairs",
+  "block.matyimod.sapphire_slab": "Sapphire Slab",
+  "block.matyimod.sapphire_trapdoor": "Sapphire Trapdoor",
+  "block.matyimod.sapphire_button": "Sapphire Button",
+  "block.matyimod.sapphire_pressure_plate": "Sapphire Pressure Plate",
+  "block.matyimod.sapphire_fence": "Sapphire Fence",
+  "block.matyimod.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.matyimod.sapphire_wall": "Sapphire Wall",
+  "block.matyimod.sapphire_door": "Sapphire Door",
+
+  "creativetab.matyimod_tab": "Matyi mod"
+}

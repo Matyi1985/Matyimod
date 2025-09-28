@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "matyimod:block/sapphire_slab"
+    },
+    "type=double": {
+      "model": "matyimod:block/sapphire_block"
+    },
+    "type=top": {
+      "model": "matyimod:block/sapphire_slab_top"
+    }
+  }
+}

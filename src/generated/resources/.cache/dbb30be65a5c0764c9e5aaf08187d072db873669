@@ -1,0 +1,16 @@
+// 1.20.1	2025-09-27T20:56:12.4732607	Tags for minecraft:block mod id matyimod
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_gold_tool.json
+4cb36c13e06c79e8200fec43d62581d6e1e5c68d data/forge/tags/blocks/needs_netherite_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_wood_tool.json
+97abfb4c860bf8094f5a35ef73a73f1a58f66541 data/matyimod/tags/blocks/metal_detector_valuables.json
+9d4db7ee0616656a9bb969733b73ac7c278bec76 data/matyimod/tags/blocks/needs_sapphire_tool.json
+0c505912c587bc9621a5fb34b081dabd51609231 data/minecraft/tags/blocks/fences.json
+b56fe42363704c9738d39b612de2882aab1ed72a data/minecraft/tags/blocks/fence_gates.json
+9b1c934d50a81c000c8fa36c426e1b69dc55f312 data/minecraft/tags/blocks/mineable/axe.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/mineable/hoe.json
+31cb20abc176c8f62238a709ade37b38c24e56bf data/minecraft/tags/blocks/mineable/pickaxe.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/mineable/shovel.json
+9d4db7ee0616656a9bb969733b73ac7c278bec76 data/minecraft/tags/blocks/needs_diamond_tool.json
+d9c55303d465a603b3c7ec698fb80f382f0248e1 data/minecraft/tags/blocks/needs_iron_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_stone_tool.json
+76b8f1fdbea53c6ee5873cf6ca77909918d9cc9a data/minecraft/tags/blocks/walls.json
