@@ -29,7 +29,7 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
 
         add("metal_detector_from_jungle_temples", new AddItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/jungle_temple")).build(),
-                LootItemRandomChanceCondition.randomChance(0.30f).build()}, ModItems.METAL_DETECTOR.get()));
+                LootItemRandomChanceCondition.randomChance(0.13f).build()}, ModItems.METAL_DETECTOR.get()));
 
         // Adds item when using the archaeology table (brushing) for desert pyramids specifically.
         // Important: archaeology only yields a single stack; we must REPLACE the result instead of adding.
