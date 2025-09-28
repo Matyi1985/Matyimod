@@ -1,6 +1,6 @@
-// 1.20.1	2025-09-28T10:02:51.9932486	Global Loot Modifiers : matyimod
+// 1.20.1	2025-09-28T12:21:01.9404987	Global Loot Modifiers : matyimod
 c1105d230ce5c16f882f24ea1a9fe81def0c7d9d data/forge/loot_modifiers/global_loot_modifiers.json
-7b04c1d0bd44895b71a7d1772236ab655b74604b data/matyimod/loot_modifiers/metal_detector_from_jungle_temples.json
+5b4221088ccc4d93607f9e9a7148490ff35a69bf data/matyimod/loot_modifiers/metal_detector_from_jungle_temples.json
 4ceb1913b57b86412355166ba28256074a5886fb data/matyimod/loot_modifiers/metal_detector_from_suspicious_sand.json
 a8c50f373dbaf9142a146d31e11327244611f274 data/matyimod/loot_modifiers/pine_cone_from_creeper.json
 4c0980e95a2d8adc01a8efbb71b4c7bd789b87fc data/matyimod/loot_modifiers/pine_cone_from_grass.json

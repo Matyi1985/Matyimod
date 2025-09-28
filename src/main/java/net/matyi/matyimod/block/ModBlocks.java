@@ -1,6 +1,7 @@
 package net.matyi.matyimod.block;
 
 import net.matyi.matyimod.block.custom.SoundBlock;
+import net.matyi.matyimod.block.custom.StrawberryCropBlock;
 import net.matyi.matyimod.item.ModItems;
 import net.matyi.matyimod.matyimod;
 import net.minecraft.sounds.SoundEvents;
@@ -67,6 +68,9 @@ public class ModBlocks {
             () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST).noOcclusion(), BlockSetType.CHERRY));
     public static final RegistryObject<Block> SAPPHIRE_TRAPDOOR = registerBlock("sapphire_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST).noOcclusion(), BlockSetType.CHERRY));
+
+    public static final RegistryObject<Block> STRAWBERRY_CROP = registerBlock("strawberry_crop",
+            () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().noOcclusion()));
 
     // New: Szigma block registered here
 

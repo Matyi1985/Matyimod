@@ -1,4 +1,4 @@
-// 1.20.1	2025-09-27T20:56:12.4772489	Item Models: matyimod
+// 1.20.1	2025-09-28T12:39:39.0453924	Item Models: matyimod
 deb681af911bb302e9eea5049368f5526bef4a9a assets/matyimod/models/item/metal_detector.json
 f04dff26a5b9230737eeeb43d6efdeb14bc8295a assets/matyimod/models/item/pine_cone.json
 5773841f463fa814fd5d19f96bb19e38760e7dea assets/matyimod/models/item/raw_sapphire.json
@@ -62,3 +62,4 @@ de48f8fa1ed8615aa80929812ed75791e6683c9e assets/matyimod/models/item/sapphire_pr
 254e3189ee2d173020483d74a62c1ff1a08359e8 assets/matyimod/models/item/sapphire_trapdoor.json
 500fe5f372334ca0a080f6c9a239519ea211fbc0 assets/matyimod/models/item/sapphire_wall.json
 04c3562245a745f52ca0ab51c268a05d852a0b55 assets/matyimod/models/item/strawberry.json
+4a0518f61556a34334742f4e1b00adbfb5206614 assets/matyimod/models/item/strawberry_seeds.json

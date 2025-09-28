@@ -1,4 +1,4 @@
-// 1.20.1	2025-09-27T20:56:12.4802416	Block States: matyimod
+// 1.20.1	2025-09-28T12:39:39.0493815	Block States: matyimod
 fd86e47dd4fea0f10dcae1299b3ee257eb6aa2f0 assets/matyimod/blockstates/deepslate_sapphire_ore.json
 580897be08dca5c9af56203f232a359334546f7b assets/matyimod/blockstates/end_stone_sapphire_ore.json
 b46708133bde2554dbad2a38f862513858ce87f0 assets/matyimod/blockstates/nether_sapphire_ore.json
@@ -15,6 +15,7 @@ d94607670d3a23b16423a2f23c40a0c9275e31c3 assets/matyimod/blockstates/sapphire_st
 fac8a2293d3f53a28436a5a99fcd6032622b2453 assets/matyimod/blockstates/sapphire_trapdoor.json
 77013d5b45f14d770294a271b463ff444f7e8469 assets/matyimod/blockstates/sapphire_wall.json
 0eb80251ac221b268ed15bee23a5e035e4ecc378 assets/matyimod/blockstates/sound_block.json
+656334002e2f6b4de5a7d0ab681df523b77bf184 assets/matyimod/blockstates/strawberry_crop.json
 effe9af93f0e6a034dcf01aa6e03e53850cdf435 assets/matyimod/models/block/deepslate_sapphire_ore.json
 24bd893a4cfefaf645667dee116940c96dbfa398 assets/matyimod/models/block/end_stone_sapphire_ore.json
 e996e1bd41d40d617cb90863a0df2290f907d151 assets/matyimod/models/block/nether_sapphire_ore.json
@@ -51,6 +52,12 @@ f2302b48fa065fc0a745565f4a74305cb0075736 assets/matyimod/models/block/sapphire_t
 ee2be0b8ec9f37692dde114462a53616d08dac15 assets/matyimod/models/block/sapphire_wall_side.json
 2dc3aa30800593210ce7026293564c0373b3867c assets/matyimod/models/block/sapphire_wall_side_tall.json
 1d35f4c754168a71d2a603c5580b0f3124a454f2 assets/matyimod/models/block/sound_block.json
+561d2635b1242fe6588396d225fad8541558e899 assets/matyimod/models/block/strawberry_stage0.json
+b7704922f24cbf77824be5199042423dbe7fe2ca assets/matyimod/models/block/strawberry_stage1.json
+a2f3daa83f4d903b4a2d44122f84a1e8d356dea0 assets/matyimod/models/block/strawberry_stage2.json
+88c8c9bc46b45223d985255d14c69bd0a4fc1d33 assets/matyimod/models/block/strawberry_stage3.json
+3fe273a22ef25d5f354e31e56256be0f8ef7939b assets/matyimod/models/block/strawberry_stage4.json
+a5e82d20c450e2dcc960dc9897dbfa14b859a992 assets/matyimod/models/block/strawberry_stage5.json
 f2736cb30e2b1cc6a0ba2dbdb1704efb2abb0e6a assets/matyimod/models/item/deepslate_sapphire_ore.json
 9fc59017ef675c66f872620e4254b0e94afc5059 assets/matyimod/models/item/end_stone_sapphire_ore.json
 c8daf0f3648e73c27b97e6460c28f94129388b5b assets/matyimod/models/item/nether_sapphire_ore.json

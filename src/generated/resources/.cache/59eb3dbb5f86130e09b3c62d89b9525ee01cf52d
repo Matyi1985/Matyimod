@@ -1,4 +1,4 @@
-// 1.20.1	2025-09-28T09:11:49.3899706	Loot Tables
+// 1.20.1	2025-09-28T12:21:01.9434903	Loot Tables
 2272aeb38fff3f4cbd2f4100b70d3b8a895f293e data/matyimod/loot_tables/archaeology/example_diamond.json
 4bc882eeba96aef9fb36be3735163197758ef853 data/matyimod/loot_tables/archaeology/example_weighted.json
 4d681a516a81b22c2811f2ef9cde8b1191f9ff0d data/matyimod/loot_tables/blocks/deepslate_sapphire_ore.json
@@ -17,3 +17,4 @@ d7d04a64b6b147d6f1f17eb3ab423fb0e07244bc data/matyimod/loot_tables/blocks/sapphi
 91abf63acf7d74903e910b9690b391a0be4389f4 data/matyimod/loot_tables/blocks/sapphire_trapdoor.json
 ae85158157d9cea95b1565342cf521860410db9b data/matyimod/loot_tables/blocks/sapphire_wall.json
 67673e5b0ca46a5ac8ef580db6e8c0fd37c1afca data/matyimod/loot_tables/blocks/sound_block.json
+2c55f737cd6d4066c4c41f537d6d377239bf46ad data/matyimod/loot_tables/blocks/strawberry_crop.json

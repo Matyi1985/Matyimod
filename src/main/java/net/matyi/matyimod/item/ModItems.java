@@ -1,5 +1,6 @@
 package net.matyi.matyimod.item;
 
+import net.matyi.matyimod.block.ModBlocks;
 import net.matyi.matyimod.item.custom.*;
 import net.matyi.matyimod.matyimod;
 import net.minecraft.world.item.*;
@@ -49,6 +50,9 @@ public class ModItems {
             () -> new ModArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
             () -> new ModArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.STRAWBERRY_CROP.get(), new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

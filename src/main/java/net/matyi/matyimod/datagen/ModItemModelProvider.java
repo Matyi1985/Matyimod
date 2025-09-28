@@ -50,6 +50,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.METAL_DETECTOR);
         simpleItem(ModItems.PINE_CONE);
         simpleItem(ModItems.STRAWBERRY);
+        simpleItem(ModItems.STRAWBERRY_SEEDS);
 
         // Block items that can directly use their block models
         simpleBlockItem(ModBlocks.SAPPHIRE_STAIRS);
@@ -134,6 +135,11 @@ public class ModItemModelProvider extends ItemModelProvider {
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(), mcLoc("item/handheld"))
                 .texture("layer0", modLoc("item/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder vanillaTextureItem(RegistryObject<Item> item, ResourceLocation texture) {
+        return withExistingParent(item.getId().getPath(), mcLoc("item/generated"))
+                .texture("layer0", texture);
     }
 
     public void evenSimplerBlockItem(RegistryObject<Block> block) {
