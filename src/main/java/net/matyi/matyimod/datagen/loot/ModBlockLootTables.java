@@ -1,6 +1,7 @@
 package net.matyi.matyimod.datagen.loot;
 
 import net.matyi.matyimod.block.ModBlocks;
+import net.matyi.matyimod.block.custom.CornCropBlock;
 import net.matyi.matyimod.block.custom.StrawberryCropBlock;
 import net.matyi.matyimod.item.ModItems;
 import net.minecraft.advancements.critereon.StatePropertiesPredicate;
@@ -62,6 +63,19 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.STRAWBERRY_CROP.get(), createCropDrops(ModBlocks.STRAWBERRY_CROP.get(), ModItems.STRAWBERRY.get(),
                 ModItems.STRAWBERRY_SEEDS.get(), lootitemcondition$builder));
 
+        //LootItemCondition.Builder lootitemcondition$builder2 = LootItemBlockStatePropertyCondition
+        //        .hasBlockStateProperties(ModBlocks.CORN_CROP.get())
+        //        .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CornCropBlock.AGE, 7))
+        //        .or(LootItemBlockStatePropertyCondition
+        //                .hasBlockStateProperties(ModBlocks.CORN_CROP.get())
+        //                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CornCropBlock.AGE, 8)));
+
+         LootItemCondition.Builder lootitemcondition$builder2 = LootItemBlockStatePropertyCondition
+                 .hasBlockStateProperties(ModBlocks.CORN_CROP.get())
+                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CornCropBlock.AGE, 8));
+
+        this.add(ModBlocks.CORN_CROP.get(), createCropDrops(ModBlocks.CORN_CROP.get(), ModItems.CORN.get(),
+                ModItems.CORN_SEEDS.get(), lootitemcondition$builder2));
     }
 // lootable paraméterek külön
     protected LootTable.Builder SapphireOre(Block pBlock, Item item) {

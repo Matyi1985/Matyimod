@@ -20,6 +20,8 @@
 
   "item.matyimod.strawberry_seeds": "Strawberry Seeds",
 
+  "item.matyimod.corn": "Corn",
+  "item.matyimod.corn_seeds": "Corn Seeds",
 
   "tooltip.matyimod.metal_detector.tooltip": "Finds valuables underground!",
   "tooltip.matyimod.soundblock.tooltip": "Makes sweet sounds when right-clicked!",

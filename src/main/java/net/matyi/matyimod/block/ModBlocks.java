@@ -1,5 +1,6 @@
 package net.matyi.matyimod.block;
 
+import net.matyi.matyimod.block.custom.CornCropBlock;
 import net.matyi.matyimod.block.custom.SoundBlock;
 import net.matyi.matyimod.block.custom.StrawberryCropBlock;
 import net.matyi.matyimod.item.ModItems;
@@ -71,6 +72,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> STRAWBERRY_CROP = registerBlock("strawberry_crop",
             () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().noOcclusion()));
+
+    public static final RegistryObject<Block> CORN_CROP = registerBlock("corn_crop",
+            () -> new CornCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().noOcclusion()));
 
     // New: Szigma block registered here
 
