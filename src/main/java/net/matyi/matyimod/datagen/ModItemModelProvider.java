@@ -79,6 +79,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.SAPPHIRE_CHESTPLATE);
         trimmedArmorItem(ModItems.SAPPHIRE_LEGGINGS);
         trimmedArmorItem(ModItems.SAPPHIRE_BOOTS);
+
+        simpleBlockItemBlockTexture(ModBlocks.CATMINT);
     }
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {
         final String MOD_ID = matyimod.MOD_ID; // Change this to your mod id
@@ -183,5 +185,11 @@ public class ModItemModelProvider extends ItemModelProvider {
     private ItemModelBuilder simpleBlockItem(RegistryObject<Block> block) {
         String name = ForgeRegistries.BLOCKS.getKey(block.get()).getPath();
         return withExistingParent(name, modLoc("block/" + name));
+    }
+
+    private ItemModelBuilder simpleBlockItemBlockTexture(RegistryObject<Block> item) {
+        String name = ForgeRegistries.BLOCKS.getKey(item.get()).getPath();
+        return withExistingParent(name, mcLoc("item/generated"))
+                .texture("layer0", modLoc("block/" + name));
     }
 }

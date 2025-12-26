@@ -5,6 +5,9 @@ import net.matyi.matyimod.block.ModBlocks;
 import net.matyi.matyimod.item.ModCreativeModTabs;
 import net.matyi.matyimod.item.ModItems;
 import net.matyi.matyimod.loot.ModLootModifiers;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -48,6 +51,9 @@ public class matyimod
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.CATMINT.getId(), ModBlocks.POTTED_CATMINT);
+        });
     }
 
 
