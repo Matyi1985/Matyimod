@@ -50,5 +50,13 @@
 
   "entity.minecraft.villager.matyimod.soundmaster": "Sound Master",
 
+  "sound.matyimod.metal_detector_found_ore": "Metal Detector Found Ore",
+
+  "sounds.matyimod.sound_block_break": "Block broken",
+  "sounds.matyimod.sound_block_place": "Block placed",
+  "sounds.matyimod.sound_block_step": "SoundBlock rattles",
+  "sounds.matyimod.sound_block_hit": "Block breaking",
+  "sounds.matyimod.sound_block_fall": "",
+
   "creativetab.matyimod_tab": "Matyi mod"
 }
