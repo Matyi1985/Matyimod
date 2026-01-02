@@ -5,6 +5,8 @@ import net.matyi.matyimod.block.ModBlocks;
 import net.matyi.matyimod.item.ModCreativeModTabs;
 import net.matyi.matyimod.item.ModItems;
 import net.matyi.matyimod.loot.ModLootModifiers;
+import net.matyi.matyimod.sound.ModSounds;
+import net.matyi.matyimod.villager.ModVillagers;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
@@ -40,6 +42,9 @@ public class matyimod
         ModBlocks.register(modEventBus);
 
         ModLootModifiers.register(modEventBus);
+        ModVillagers.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -1,5 +1,7 @@
 package net.matyi.matyimod.datagen;
 
+import java.util.concurrent.CompletableFuture;
+
 import net.matyi.matyimod.matyimod;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
@@ -8,8 +10,6 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-
-import java.util.concurrent.CompletableFuture;
 
 @Mod.EventBusSubscriber(modid = matyimod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DataGenerators {
@@ -33,5 +33,6 @@ public class DataGenerators {
         generator.addProvider(event.includeServer(), new ModItemTagGenerator(packOutput, lookupProvider, blockTagGenerator.contentsGetter(), existingFileHelper));
 
         generator.addProvider(event.includeServer(), new ModGlobalLootModifiersProvider(packOutput));
+        generator.addProvider(event.includeServer(), new ModPoiTypeTagsProvider(packOutput, lookupProvider, existingFileHelper));
     }
 }

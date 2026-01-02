@@ -1,8 +1,10 @@
 package net.matyi.matyimod.event;
 
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
+import net.matyi.matyimod.block.ModBlocks;
 import net.matyi.matyimod.item.ModItems;
 import net.matyi.matyimod.matyimod;
+import net.matyi.matyimod.villager.ModVillagers;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.item.EnchantedBookItem;
@@ -11,6 +13,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.enchantment.EnchantmentInstance;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.item.trading.MerchantOffer;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.event.village.VillagerTradesEvent;
 import net.minecraftforge.event.village.WandererTradesEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -30,19 +33,19 @@ public class ModEvent {
             trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
                     new ItemStack(Items.EMERALD, 2),
                     new ItemStack(ModItems.STRAWBERRY.get(), 12),
-                10,8,0.02f));
+                10,2,0.02f));
 
             // Level 2
             trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
                     new ItemStack(Items.EMERALD, 5),
                     new ItemStack(ModItems.CORN.get(), 6),
-                    5,9,0.035f));
+                    5, 1,0.035f));
 
             // Level 3
             trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
                     new ItemStack(Items.GOLD_INGOT, 8),
                     new ItemStack(ModItems.CORN_SEEDS.get(), 2),
-                    2,12,0.075f));
+                    2,4,0.075f));
         }
 
         if (event.getType() == VillagerProfession.LIBRARIAN) {
@@ -53,8 +56,30 @@ public class ModEvent {
             trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
                     new ItemStack(Items.EMERALD, 32),
                     ThornsenchantedBook,
-                    2,8,0.02f));
+                    2,2,0.02f));
 
+        }
+
+        if (event.getType() == ModVillagers.SOUND_MASTER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+
+            // Level 1
+            trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModBlocks.SOUND_BLOCK.get(), 1),
+                    2,2,0.02f));
+
+            trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 10),
+                    new ItemStack(Blocks.NOTE_BLOCK, 5),
+                    5,1,0.02f));
+
+            //Level 2
+
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 8),
+                    new ItemStack(Blocks.JUKEBOX, 1),
+                    3,4,0.02f));
         }
 
 
