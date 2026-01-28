@@ -23,6 +23,9 @@
   "item.matyimod.corn": "Corn",
   "item.matyimod.corn_seeds": "Corn Seeds",
 
+  "item.matyimod.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.matyimod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
   "tooltip.matyimod.metal_detector.tooltip": "Finds valuables underground!",
   "tooltip.matyimod.soundblock.tooltip": "Makes sweet sounds when right-clicked!",
 
@@ -56,7 +59,7 @@
   "sounds.matyimod.sound_block_place": "Block placed",
   "sounds.matyimod.sound_block_step": "SoundBlock rattles",
   "sounds.matyimod.sound_block_hit": "Block breaking",
-  "sounds.matyimod.sound_block_fall": "",
+  "sounds.matyimod.sound_block_fall": "SoundBlock rattles",
 
   "creativetab.matyimod_tab": "Matyi mod"
 }
