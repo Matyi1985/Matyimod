@@ -2,11 +2,14 @@ package net.matyi.matyimod;
 
 import com.mojang.logging.LogUtils;
 import net.matyi.matyimod.block.ModBlocks;
+import net.matyi.matyimod.entity.ModEntities;
+import net.matyi.matyimod.entity.client.RhinoRenderer;
 import net.matyi.matyimod.item.ModCreativeModTabs;
 import net.matyi.matyimod.item.ModItems;
 import net.matyi.matyimod.loot.ModLootModifiers;
 import net.matyi.matyimod.sound.ModSounds;
 import net.matyi.matyimod.villager.ModVillagers;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
@@ -45,6 +48,7 @@ public class matyimod
         ModVillagers.register(modEventBus);
 
         ModSounds.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -72,6 +76,7 @@ public class matyimod
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            EntityRenderers.register(ModEntities.RHINO.get(), RhinoRenderer::new);
         }
     }
 }

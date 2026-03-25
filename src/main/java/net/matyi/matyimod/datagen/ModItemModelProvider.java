@@ -82,6 +82,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.SAPPHIRE_BOOTS);
 
         simpleBlockItemBlockTexture(ModBlocks.CATMINT);
+
+        withExistingParent(ModItems.RHINO_SPANW_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {
         final String MOD_ID = matyimod.MOD_ID; // Change this to your mod id
